@@ -24,29 +24,29 @@ if (!isset($content_width)) {
 }
 
 // dang ki css
-if( !function_exists('ipi_register_styles1') ) {
-    function ipi_register_styles1() {
-        wp_enqueue_style('ipi-style', get_stylesheet_uri(), array('ipi-bootstrap'), '1.0', 'all');
-        wp_enqueue_style('ipi-style1', THEME_URL . "/assets/css/style_tmp.css", array('ipi-style'), '1.0', 'all');
-        wp_enqueue_style('ipi-style2', THEME_URL . "/assets/css/tintuc.css", array('ipi-style1'), '1.0', 'all');
-        wp_enqueue_style('ipi-style3', THEME_URL . "/assets/css/flickity.css", array('ipi-style2'), '1.0', 'all');
-        wp_enqueue_style('ipi-bootstrap', "https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css", array('ipi-fontawesome'), '4.5.0', 'all');
+if( !function_exists('ipi_register_styles') ) {
+    function ipi_register_styles() {
+        wp_enqueue_style('ipi-style', get_template_directory_uri() . "/style.css", array('ipi-bootstrap'), '1.0', 'all');
+        wp_enqueue_style('ipi-style1', get_template_directory_uri() . "/assets/css/style_tmp.css", array('ipi-style'), '1.0', 'all');
+        wp_enqueue_style('ipi-style2', get_template_directory_uri() . "/assets/css/tintuc.css", array('ipi-style1'), '1.0', 'all');
+        wp_enqueue_style('ipi-style3', get_template_directory_uri() . "/assets/css/flickity.css", array('ipi-style2'), '1.0', 'all');
+        wp_enqueue_style('ipi-bootstrap', "https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css", array(), '4.5.0', 'all');
         wp_enqueue_style('ipi-fontawesome', "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" , array(), '5.13.0', 'all');
     }
 }
 
-add_action('wp_enqueue_scripts', 'ipi_register_styles1');
+add_action('wp_enqueue_scripts', 'ipi_register_styles');
 // Dang ki script
-if( !function_exists('ipi_register_scripts1') ) {
-    function ipi_register_scripts1() {
-        wp_enqueue_script('ipi-js', THEME_URL . "/assets/js/flickity.pkgd.min.js", array('ipi-bootstrap'), '1.0', true);
+if( !function_exists('ipi_register_scripts') ) {
+    function ipi_register_scripts() {
+        wp_enqueue_script('ipi-js', get_template_directory_uri() . "/assets/js/flickity.pkgd.min.js", array('ipi-bootstrap'), '1.0', true);
         wp_enqueue_script('ipi-jquery', "https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js" , array(), '3.5.1', true);
         wp_enqueue_script('ipi-popper', 'https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js', array('ipi-jquery'), '1.16.0', true);
         wp_enqueue_script('ipi-bootstrap', "https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js", array('ipi-popper'), '4.5.0', true);
     }
 }
 
-add_action('wp_enqueue_scripts', 'ipi_register_scripts1');
+add_action('wp_enqueue_scripts', 'ipi_register_scripts');
 
 // chuc nang trong theme, menu
 
@@ -103,7 +103,7 @@ if (!function_exists('ipi_menu')) {
     {
         $menu = array(
             'theme_location' => $menu, //Menu location của bạn
-            'depth' => 2, //Số cấp menu đa cấp
+            'depth' => 3, //Số cấp menu đa cấp
             'container' => 'div', //Thẻ bao quanh cặp thẻ ul
             'container_class'=>'collapse navbar-collapse navbar-ex1-collapse', //class của thẻ bao quanh cặp thẻ ul
             'menu_class' => 'nav navbar-nav', //class của thẻ ul
