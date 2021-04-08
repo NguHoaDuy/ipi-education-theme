@@ -103,7 +103,7 @@ if (!function_exists('ipi_menu')) {
     {
         $menu = array(
             'theme_location' => $menu, //Menu location của bạn
-            'depth' => 2, //Số cấp menu đa cấp
+            'depth' => 3, //Số cấp menu đa cấp
             'container' => 'div', //Thẻ bao quanh cặp thẻ ul
             'container_class'=>'collapse navbar-collapse navbar-ex1-collapse', //class của thẻ bao quanh cặp thẻ ul
             'menu_class' => 'nav navbar-nav', //class của thẻ ul
