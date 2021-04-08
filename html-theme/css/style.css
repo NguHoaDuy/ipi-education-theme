@@ -115,6 +115,8 @@ html {
     padding-left: 0 !important;
 }
 
+
+
 .bd-placeholder-img {
     font-size: 1.125rem;
     text-anchor: middle;
@@ -161,7 +163,7 @@ html {
 
 .modified-home .two-columns-wide-outer .two-columns-wide-wrapper {
     /* max-width: 1380px; */
-    padding: 40px 20px;
+    /* padding: 40px 20px; */
 }
 
 .gioithieu {
