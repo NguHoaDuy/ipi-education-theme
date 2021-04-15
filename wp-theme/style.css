@@ -153,22 +153,15 @@ html {
     vertical-align: middle;
 }
 
-.modified-home .two-columns-wide-outer {
-    position: relative;
-    overflow: hidden;
-    width: 100%;
-    background: #0093c8;
-    background: linear-gradient(to right, #232021 0, #0093c8 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#232021', endColorstr='#0093c8', GradientType=1);
-}
 
-.modified-home .two-columns-wide-outer .two-columns-wide-wrapper {
-    /* max-width: 1380px; */
-    padding: 40px 20px;
-}
+
+
 
 .gioithieu {
-    text-align: center;
+    /*text-align: center;*/
+    justify-content: center;
+    display: flex;
+    color: #f16327;
 }
 
 .gioithieu h1 {
