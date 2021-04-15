@@ -235,7 +235,7 @@ body {
 }
 
 .dropdown-menu {
-    background-color: #d29328 !important;
+    background-color: var(--global-color-orange-red) !important;
 }
 
 .dropdown-submenu {

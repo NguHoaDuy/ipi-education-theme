@@ -1,7 +1,3 @@
-/*
- * Theme Name: ipi education
- * Description: Theme for ipi education
- */
 #logoWord {
     color: #1c232e;
     font-size: 14px;
@@ -18,31 +14,11 @@
     float: right;
 }
 
-.hotline1 {
-    margin-right: 4px;
-    color: #4469B0;
-    font-weight: 700;
-    font-size: 20px;
-    height: 18px;
-    text-align: center;
-    margin-top: 1px;
-    padding-bottom: 4px;
-}
-
 hr {
     border-bottom: 1px solid #FFFFFF;
     border-bottom-color: rgb(255, 255, 255);
     margin-bottom: -10px;
     margin-top: 9px;
-}
-
-.hotline2 {
-    line-height: 32px;
-    color: #4469B0;
-    float: left;
-    font-size: 40px;
-    font-weight: 700;
-    margin-top: 12px;
 }
 
 .menu {
@@ -54,7 +30,7 @@ hr {
 }
 
 .imgslide {
-    height: 600px;
+    height: 500px;
 }
 
 .img {
@@ -81,64 +57,55 @@ hr {
     text-align: center;
 }
 
+.box-destination {
+    background-size: cover;
+    background-position: center;
+    background-position-x: center;
+    background-position-y: center;
+    background-repeat: no-repeat;
+    background-repeat-x: no-repeat;
+    background-repeat-y: no-repeat;
+}
+
 #gioithieu1 {
-    height: 150px;
-    width: 150px;
-    background-image: url(https://image.useinsider.com/vietnamairlinesnew/defaultImageLibrary/180-x-180-1-1593685081.jpeg);
-    border-radius: 60%;
+    height: 200px;
+    width: 200px;
+    background-image: url(https://directenglishsaigon.edu.vn/wp-content/themes/directenglish/images/tieng-anh-cho-nguoi-di-lam/chung-chi-gia-tri.png);
+    border-radius: 10px;
     display: inline-block;
-    margin-left: 2px;
-    margin-top: 5px;
+    margin-left: 3%;
+    margin-top: 3%;
 }
 
 #gioithieu2 {
-    height: 150px;
-    width: 150px;
-    background-image: url(https://image.useinsider.com/vietnamairlinesnew/defaultImageLibrary/180x180_VI-1595416918.jpeg);
-    border-radius: 60%;
+    height: 200px;
+    width: 200px;
+    background-image: url(https://directenglishsaigon.edu.vn/wp-content/themes/directenglish/images/tieng-anh-cho-nguoi-di-lam/phuong-phap-hoc-hieu-qua.png);
+    border-radius: 10px;
+    justify-content: center;
     display: inline-block;
-    margin-left: 2px;
-    margin-top: 5px;
+    margin-left: 3%;
+    margin-top: 3%;
 }
 
 #gioithieu3 {
-    height: 150px;
-    width: 150px;
-    background-image: url(https://image.useinsider.com/vietnamairlinesnew/defaultImageLibrary/Facebook_1000x1000-vi-1596457789.png);
-    border-radius: 60%;
+    height: 200px;
+    width: 200px;
+    background-image: url(https://directenglishsaigon.edu.vn/wp-content/themes/directenglish/images/tieng-anh-cho-nguoi-di-lam/phuong-phap-hoc-hieu-qua-2.png);
+    border-radius: 10px;
     display: inline-block;
-    margin-left: 2px;
-    margin-top: 5px;
+    margin-left: 3%;
+    margin-top: 3%;
 }
 
 #gioithieu4 {
-    height: 150px;
-    width: 150px;
-    background-image: url(https://image.useinsider.com/vietnamairlinesnew/defaultImageLibrary/180x180_vi-1598329507.jpeg);
-    border-radius: 60%;
+    height: 200px;
+    width: 200px;
+    background-image: url(https://directenglishsaigon.edu.vn/wp-content/themes/directenglish/images/tieng-anh-cho-nguoi-di-lam/nen-trang-cong-nghe-hien-dai.png);
+    border-radius: 10px;
     display: inline-block;
-    margin-left: 2px;
-    margin-top: 5px;
-}
-
-#gioithieu5 {
-    height: 150px;
-    width: 150px;
-    background-image: url(https://image.useinsider.com/vietnamairlinesnew/defaultImageLibrary/banner_VNA_180x180-1591115116.jpeg);
-    border-radius: 60%;
-    display: inline-block;
-    margin-left: 2px;
-    margin-top: 5px;
-}
-
-#gioithieu6 {
-    height: 150px;
-    width: 150px;
-    background-image: url(https://image.useinsider.com/vietnamairlinesnew/defaultImageLibrary/180x180-1592204049.jpeg);
-    border-radius: 60%;
-    display: inline-block;
-    margin-left: 2px;
-    margin-top: 5px;
+    margin-left: 3%;
+    margin-top: 3%;
 }
 
 .home-title {
@@ -160,18 +127,6 @@ hr {
 .home-title2 h2 {
     font-family: VnArial;
     font-size: 40px;
-}
-
-.box-destination {
-    height: 495px;
-    background-size: cover;
-    background-position: center;
-    background-position-x: center;
-    background-position-y: center;
-    background-repeat: no-repeat;
-    background-repeat-x: no-repeat;
-    background-repeat-y: no-repeat;
-    margin-bottom: 4px;
 }
 
 .overplay {
@@ -350,17 +305,7 @@ hr {
 .footer {
     width: 100%;
     height: 100%;
-    padding: 25px;
     background-color: #f16327;
-}
-
-.logomaybay {
-    width: 100%;
-    height: 100%;
-    padding: 5px;
-    background-color: #e9e9e9;
-    border-bottom: 4px solid #d29328;
-    border-bottom-color: rgb(210, 147, 40);
 }
 
 .hr4 {
